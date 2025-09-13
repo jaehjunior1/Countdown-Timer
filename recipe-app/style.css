@@ -21,7 +21,6 @@ body{
     font-family: "poppins", sans-serif;
     margin: 0;
     min-height: 100vh;
-    
 }
 
 img {
@@ -112,10 +111,12 @@ border: 2px solid #ffffff1A;
     margin: 0;
 }
 .meal-body .fav-btn {
-    /* border: none; */
+    border: none;
     background-color: transparent;
     color: gray;
-    font-size: 1.2rem;
+    cursor: pointer;
+     transition: color 0.3s;
+    font-size: 24px;
 }
 .meal-body .fav-btn.active {
     color: rebeccapurple;
